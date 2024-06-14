@@ -1,0 +1,55 @@
+body {
+  background-color: #f3f4ed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* crop images */
+img {
+  width: 400px; /* width of container */
+  height: 300px; /* height of container */
+  object-fit: cover;
+}
+
+.card {
+  width: 400px;
+  padding: 10px;
+  background-color: #f3f4ed;
+}
+
+/* for future use with watchlist */
+.heart {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #beb4aa;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+/* "or" line in login modal */
+.line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.line span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.navbar {
+  background-color: #191919;
+}
+
+.navbar-brand {
+  font-family: "Stint Ultra Expanded", cursive;
+}
